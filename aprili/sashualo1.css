@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+html,body{
+    background: rgb(199, 199, 199);
+    
+}
+
+.card {
+    width: 350px;
+    display: block;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 7px 7px 7px rgb(167, 167, 167);
+    
+    margin: 0 auto;
+    
+    /* margin-top: 250px;
+    margin-left: 750px; */
+}
+
+.card img {
+    width: 100%;
+}
+
+.card .title {
+    color: rgb(184, 181, 181);
+    letter-spacing: 2px;
+    word-wrap: break-word;
+    
+    font-size: 14px;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+.card .title1 {
+    color: black;
+    font-size: 26px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-left: 30px;
+    word-wrap: break-word;
+
+}
+
+.card .article {
+    color: rgb(20, 20, 20);
+    font-size: 16px;
+    font-weight: 200;
+    padding-top: 5px;
+    padding-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.card .read {
+    color: rgb(8, 92, 172);
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+}

@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+    
+}
+
+.pirveli{
+    display: flex;
+    background: aqua;
+    width: 100%;
+    height: 100px;
+    color: white;
+   }
+
+   .pirveli p {
+       margin: auto;
+   }
+
+   .half{
+       display: inline-block;
+       background: aqua;
+       color: white;
+       
+       
+       padding-top: 50px;
+       
+   }
+
+
+   .half1{
+    display: inline-block;
+    background: aqua;
+    color: white;
+    
+    padding-top: 50px;
+    
+   }

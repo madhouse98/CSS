@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://geo-media.beatport.com/image_size/1400x1400/b4137d73-708a-4393-95e9-1f2680695502.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+.container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    
+
+
+}
+
+
+img{
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    
+}
+
+
+.row ul li{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 12px;
+    
+
+}
+
+#bord {
+    border-style: solid 4px 4px;
+    background-color: rgba(128, 128, 128, 0.447);
+    border-radius: 3px;
+    font-size: 18px;
+
+
+}
+
+
+    
+.text {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text p {
+    position: absolute;
+    top: 150px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(30, 0, 255, 0.582);
+}
+
+.text h1 {
+    position: absolute;
+    top: 200px;
+    color: rgb(122, 187, 122)
+}
+
+.text a {
+    position: absolute;
+    top: 300px;
+    text-decoration: none;
+    border: solid 3px 3px 3px;
+    border-radius: 3px;
+    background-color: bisque;
+    padding: 0 15px;
+}
+
+ li p {
+    font-size: 18px;
+    color: black;
+}

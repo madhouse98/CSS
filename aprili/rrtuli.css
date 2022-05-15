@@ -1,0 +1,94 @@
+
+
+.lurji{
+    background: #5caff8;
+    color: white;
+    width: 30.3333333333%;
+    margin: 1%;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    
+    
+
+}
+
+.kviteli{
+    background: #d1d118;
+    color: white;
+    width: 30.3333333333%;
+    margin: 1%;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    top: -250px;
+    left: 615px;
+    
+    
+}
+
+.muqilurji{
+    background: #14016865;
+    color: white;
+    width: 30.3333333333%;
+    margin: 1%;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    top: -500px;
+    left: 1230px;
+    
+    
+
+}
+
+.witeli{
+    background: #de070765;
+    color: white;
+    width: 30.3333333333%;
+    margin: 1%;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    top: -510px;
+
+}
+
+.iasamnisperi {
+    background: #54016365;
+    color: white;
+    width: 30.3333333333%;
+    margin: 1%;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    top: -760px;
+    left: 615px;
+    
+
+
+}
+
+.orange{
+    background: #e8a63cc2;
+    color: white;
+    width: 30.3333333333%;
+    margin: 1%;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    top: -1010px;
+    left: 1230px;
+
+}
+
+
+.learn{
+    background-color: gainsboro;
+    width: 80px;
+    border: 2px; solid;
+    border-radius: 5px;
+    
+    
+    
+}

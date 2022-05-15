@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background: rgba(128, 128, 128, 0.212);
+}
+
+.container{
+    
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+
+
+
+.row{
+    text-align: center;
+    padding-top: 300px;
+}
+
+.nav{
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+}
+
+.nav1{
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+}
+
+.row1{
+    display: flex;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navbar li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 7px;
+    color: rgba(9, 75, 199, 0.781);
+    
+}
+
+.border{
+    border: solid;
+    background-color: azure;
+    border-radius: 5px;
+}

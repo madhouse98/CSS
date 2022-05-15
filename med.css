@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+    
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.ogn {
+    width: 30%%;
+    height: 200px; 
+    background-color: white;
+    display: flex;
+    
+    
+}
+
+
+.ogn img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    
+}
+
+.travel{
+    font-size: 12px;
+    padding-left: 40px;
+    color: rgb(194, 194, 194);
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    
+}
+
+.row {
+    display: inline-block;
+}
+
+ 
+
+

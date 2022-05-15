@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://assets.website-files.com/611153e7af981472d8da199c/619613b4ec00d58dd9677b5c_Terra%20header%20image%20mobile%402x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+
+.container{
+    width: 1200px;
+    max-width: 100%;
+    display: flex;
+    }
+
+
+.contactbox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    
+
+}
+
+.contactbox h1 {
+    text-align: center;
+    
+}
+
+p {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 800px;
+    background-color: rgba(53, 113, 244, 0.616);
+    height: 100px;
+    border: solid;
+    border-radius: 20px;
+    border-color: transparent;
+    padding: 20px;
+   
+
+}
+
+.n{
+    margin-top: 20px;
+    background-color: rgba(53, 113, 244, 0.616);
+    border: solid;
+    border-radius: 20px;
+    border-color: transparent;
+    width: 200px;
+    
+}
+
+
+.m{
+    background-color: rgba(53, 113, 244, 0.616);
+    border: solid;
+    border-radius: 10px;
+    border-color: transparent;
+    margin-top: -100px;
+    margin-left: 220px;
+     width: 300px;
+    height: 100px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+button{
+    /* padding: 10px 10px; */
+    width: 60px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 220px;
+    background-color: rgba(53, 113, 244, 0.616);
+    border-color: transparent;
+    border-radius: 10px;
+}

@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.214);
+}
+
+header {
+    display: flex;
+    background-color: rgba(169, 169, 169, 0.422);
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    margin-left: 50px;
+}
+
+li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+a {
+    background-color: darkgrey;
+    text-decoration: none;
+    margin-right: 50px;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 0 15px;
+    
+}
+
+
+
