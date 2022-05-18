@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.277);
+}
+
+.element {
+    position: fixed;
+    width: 80%;
+    height: 50vh;
+    background-color: blue;
+    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.center {
+    position: fixed ;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 21px;
+    text-transform: uppercase;
+    color: white;
+
+}

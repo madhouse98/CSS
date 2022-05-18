@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(211, 117, 117, 0.274) ;
+}
+
+.sgnform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .form {
+      background-color: white;
+      border-radius: 10px;
+      width: 500px;
+      padding: 30px 40px;
+  }
+
+  .title {
+      margin-bottom: 30px;
+      color: rgb(11, 76, 218);
+  }
+
+  .inputcon {
+    position: relative;
+    height: 25px;
+    width: 80%;
+    margin-bottom: 25px;
+  }
+
+  .input1 {
+    
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        border: 1px solid #DADCE0;
+        
+        border-radius: 5px;
+        
+        padding: 9px 18px;
+        outline: none;
+        background: none;
+        z-index: 1;
+      }
+
+
+  
+
+      .label {
+        position: absolute;
+        top: 5px;
+        left: 10px;
+        padding: 0 6px;
+        background-color: white;
+        color: #DADCE0;
+        font-size: 15px;
+        transition: 0.3s;
+        z-index: 0;
+      }
+
+      .submitBtn {
+        display: block;
+        margin-left: 225px;
+        padding: 15px 30px;
+        border: none;
+        background-color: rgb(17, 38, 228);
+        color: white;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 30px;
+      }
+      
+      .submitBtn:hover {
+        background-color: #8997eb;
+        
+      }
+
+      .input1:focus + .label {
+        top: -7px;
+        left: 3px;
+        z-index: 1;
+        font-size: 12px;
+        color: rgb(4, 15, 167);
+      }
+      .input1:focus {
+        border: 2px solid rgb(4, 15, 167);
+      }
