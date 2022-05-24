@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.mod{
+    width: 80px;
+    height: 80px;
+}
+
+.row {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+   
+}
+
+.list {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+li {
+    padding: 0px 10px;
+    
+}
+
+.list a {
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.firstone {
+    color: white;
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.212);
+    border-color: transparent;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.box {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translatex(-50%) translateY(-50%);
+   
+    
+}
+
+h1,h4{
+    text-align: center;
+    color: white;
+}
+
+
+.twobuttons {
+    text-align: center;
+    padding: 20px;
+}
+
+.secondone {
+    border: 3px solid;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.212);
+    border-color: transparent;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.thirdone {
+    border: 3px solid;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.212);
+    border-color: transparent;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.socials{
+    color: white;
+    position: absolute;
+    top: 85%;
+    
+    
+    
+}
+
+i {
+    padding: 0px 10px;
+}
+
+.blabla {
+    
+    display: flex;
+    }
+
+    .blabla p {
+        padding: 0px 10px;
+    }
+
+
+    li:hover {
+        background-color: black;
+        border: 1px solid;
+        border-color: transparent;
+        border-radius: 10px;
+    }
+
+    @media (max-width:414px) {
+        .list{
+            display: block;
+        }
+        footer {
+            text-align: center;
+        }
+        
+    }
+
+
+    
+
