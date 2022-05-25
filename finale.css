@@ -175,6 +175,7 @@ body{
 }
 
 .mordimages{
+    max-width: 100%;
     padding: 15px 15px;
     width: 400px;
     height: 400px;
