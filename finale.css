@@ -52,7 +52,7 @@ body{
 }
 
 .imagerow{
-    
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     
@@ -200,3 +200,4 @@ body{
 .hey{
     font-weight: bold;
 }
+
