@@ -1,0 +1,161 @@
+header {
+    height: 100vh;
+    background-image: url(https://f4.bcbits.com/img/a2033530586_10.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.colorw{
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+
+.scrolldown{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5%;
+    font-size: 40px;
+    color: white;
+
+}
+
+.mod1921{
+    background-size: cover;
+    width: 120px;
+    height: 80px;
+}
+
+.col-lg-3 h2 {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.xxx{
+    
+    padding: 50px 0;
+    background-color: rgba(105, 33, 169, 0.03);
+}
+
+.carret {
+    width: 30px;
+    height: 1px;
+    background-color: #17daa3;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+
+.learnmore{
+    text-decoration: none;
+}
+
+.big::first-letter{
+    font-size:72px;
+}
+
+.modz{
+    width: 300px;
+    height: 250px;
+}
+
+.cardthird{
+    padding: 15px 0px;
+}
+
+
+.sliderss{
+    margin-top: 50px;
+}
+.carousel-item img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    margin: auto;
+    margin-top: 40px;
+    
+   
+
+}
+
+.carousel-item{
+    height: 400px;
+    
+}
+
+.carousel-inner{
+    background-color: rgba(106, 33, 169, 0.088);
+    background-image: url(https://f4.bcbits.com/img/a3826330386_10.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: lighten;
+    opacity: 0.8;
+    
+}
+
+.texttt{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 1;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.stefan{
+    width: 325px;
+    height: 250px;
+}
+
+.bfo{
+    padding-top: 20px;
+}
+
+.drba{
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.bbb{
+    background-color: rgba(128, 128, 128, 0.559);
+}
+
+.mm{
+    padding: 15px 0px;
+    
+}
+
+.formss{
+    margin: auto;
+}
+

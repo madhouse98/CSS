@@ -1,0 +1,25 @@
+.colorpink {
+    background-color: rgb(99, 3, 177)  !important;
+}
+
+::placeholder{
+    color: white !important;
+    border-bottom: 1px solid white;
+    
+}
+
+.all{
+    margin-top: 10px;
+    border: 1px solid;
+}
+
+.btns{
+    padding-bottom: 40px;
+}
+
+
+
+.hvr:hover{
+    background-color: rgba(255, 255, 255, 0.425);
+}
+

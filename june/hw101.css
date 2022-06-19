@@ -1,0 +1,43 @@
+.sizefont {
+    font-size: 14px !important;
+}
+
+.backimg{
+    background-size: cover;
+    min-height: 70vh;
+    object-fit: cover;
+    background-repeat:no-repeat;
+    background-attachment: scroll;
+}
+
+.texts {
+    padding-top: 100px;
+    width: 25%;
+    
+}
+
+.bl{
+    border: none !important;
+}
+
+
+
+.blok{
+    margin-left: auto;
+
+}
+
+@media (max-width:990px){
+    .texts{
+        width: 100%;
+        text-align: center;
+    }
+
+    .card{
+        width: 100%!important;
+    }
+
+    
+   
+    
+}

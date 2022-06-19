@@ -1,0 +1,194 @@
+.container {
+    max-width: 1530px;
+}
+
+.lilbitoff{
+    position: relative;
+    bottom: 5px;
+    right: 4px;
+}
+
+
+
+.navbar-nav{
+    padding-top: 44px;
+    
+    
+    
+}
+
+.navbar-brand{
+    padding-top: 31px;
+
+}
+
+
+.nav-link{
+    font-size: 14px;
+    color: white !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.nav-item {
+    padding: 0px 25px;
+}
+
+.xd {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.headings {
+    font-size: 60px;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.hehe {
+    
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.carousel-caption {
+    
+    position: absolute;
+    right: 15%;
+    bottom: 302px;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.slidertext{
+    font-size: 24px;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 13px 0px 41px 0px;
+    
+}
+
+.ko {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 11px 50px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 214px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.carousel-indicators [data-bs-target] {
+    
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 6px;
+    margin-left: 6px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.7;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+
+.bi-caret-down{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 38px;
+    font-size: 40px;
+    font-weight: 100;
+    color: white;
+    opacity: 0.3;
+
+}
+
+.headingfirst{
+    margin-top: 97px;
+    color: #576671;
+    font-size: 60px;
+    font-weight: 300;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.parafirst{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #8e9aa4;
+    margin-top: 31px;
+}
+
+.linegreen {
+    width: 30px;
+    height: 1px;
+    background-color: #17daa3;
+    margin: auto;
+    margin-top: 27px;
+    
+}
+
+
+
+.cardstotop{
+    margin-top: 152px;
+}
+
+.headingsecond{
+    color: black;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 80px;
+    
+}
+
+.parasecond{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #9da8b0;
+    padding: 0px 15px;
+}
+
+.btnsecond{
+    background-color: #17daa3;
+    color: white;
+    padding: 5px 25px;
+}
