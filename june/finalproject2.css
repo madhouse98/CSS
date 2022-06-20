@@ -2,7 +2,7 @@
     max-width: 1530px;
 }
 
-.lilbitoff{
+.lilbitoff {
     position: relative;
     bottom: 5px;
     right: 4px;
@@ -10,26 +10,26 @@
 
 
 
-.navbar-nav{
+.navbar-nav {
     padding-top: 44px;
-    
-    
-    
+
+
+
 }
 
-.navbar-brand{
+.navbar-brand {
     padding-top: 31px;
 
 }
 
 
-.nav-link{
+.nav-link {
     font-size: 14px;
     color: white !important;
     text-transform: uppercase;
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
-    
+
 }
 
 .nav-item {
@@ -46,17 +46,17 @@
     font-size: 60px;
     font-weight: 100;
     font-family: 'Raleway', sans-serif;
-    
+
 }
 
 .hehe {
-    
+
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
 }
 
 .carousel-caption {
-    
+
     position: absolute;
     right: 15%;
     bottom: 31.3%;
@@ -65,15 +65,15 @@
     padding-bottom: 1.25rem;
     color: #fff;
     text-align: center;
-    
+
 }
 
-.slidertext{
+.slidertext {
     font-size: 24px;
     font-weight: 100;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 13px 0px 41px 0px;
-    
+
 }
 
 .ko {
@@ -100,7 +100,7 @@
 }
 
 .carousel-indicators [data-bs-target] {
-    
+
     box-sizing: content-box;
     flex: 0 1 auto;
     width: 10px;
@@ -118,27 +118,29 @@
     opacity: 1;
     transition: opacity .6s ease;
     border-radius: 50%;
-    
+
 }
 
 .carousel-indicators .active {
     background-color: white !important;
     opacity: 1 !important;
-    
-    
+
+
 }
 
 .carousel-control-prev {
     left: 3.6%;
     bottom: 1%;
 }
+
 .carousel-control-next {
     right: 3.6%;
     bottom: 1%;
-    
+
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
     display: inline-block;
     width: 65px;
     height: 65px;
@@ -147,7 +149,7 @@
     background-size: 100% 100%;
 }
 
-.bi-caret-down{
+.bi-caret-down {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -157,7 +159,7 @@
 
 }
 
-.headingfirst{
+.headingfirst {
     letter-spacing: 2px;
     margin-top: 97px;
     color: #576671;
@@ -167,7 +169,7 @@
 
 }
 
-.parafirst{
+.parafirst {
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #8e9aa4;
@@ -180,24 +182,24 @@
     background-color: #17daa3;
     margin: auto;
     margin-top: 27px;
-    
+
 }
 
 
 
-.cardstotop{
+.cardstotop {
     margin-top: 152px;
 }
 
-.headingsecond{
+.headingsecond {
     color: black;
     font-size: 30px;
     font-family: 'Raleway', sans-serif;
     margin-top: 80px;
-    
+
 }
 
-.parasecond{
+.parasecond {
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #9da8b0;
@@ -206,7 +208,7 @@
 }
 
 
-.btnsecond{
+.btnsecond {
     background-color: #17daa3;
     color: white;
     padding: 10px 50px;
@@ -224,34 +226,33 @@
 }
 
 .headingthird {
-    
+
     color: #576671;
     font-size: 60px;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     letter-spacing: 2px;
-    
-    
+
+
 }
 
-.parathird{
+.parathird {
     font-size: 18px;
     color: #87949e;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 51px 3px 0px 3px;
     line-height: 36px;
-    }
+}
 
-    .textsss{
-        padding-top: 150px;
-    }
+.textsss {
+    padding-top: 150px;
+}
 
-    .buttonup{
-        padding: 52px 0px;
-    }
+.buttonup {
+    padding: 52px 0px;
+}
 
-    .btnnomargin{
-        margin: 0;
-        
-    }
-  
+.btnnomargin {
+    margin: 0;
+
+}
