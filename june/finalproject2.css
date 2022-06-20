@@ -256,3 +256,112 @@
     margin: 0;
 
 }
+
+
+.slidersss {
+    margin-top: 114px;
+}
+
+
+
+
+
+.carousel-item2 {
+    height: 703px;
+    position: relative;
+    display: block;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+}
+
+.carousel-item2 img {
+
+    margin: auto;
+    margin-top: 188px;
+}
+
+.headingfourth {
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: 300;
+    margin-top: 41px;
+}
+
+.greenalecto {
+    color: #16ce9a;
+}
+
+.parafourth {
+    font-size: 18px;
+    letter-spacing: 0px;
+    font-family: 'Raleway', sans-serif;
+    color: #535353;
+    font-weight: 500;
+    margin-top: 30px;
+
+}
+
+.carousel-inner2 {
+    background-image: url(.//imgsforfinalproject/backgroundimg\ for\ slider.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-indicators2 {
+    position: absolute;
+    right: 0;
+    bottom: 18%;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.carousel-indicators2 [data-bs-target] {
+
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 6px;
+    margin-left: 6px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: transparent;
+    background-clip: padding-box;
+    border: 2px solid white;
+    /* border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; */
+    opacity: 1;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+
+}
+
+.carousel-indicators2 .active {
+    background-color: white !important;
+    opacity: 1 !important;
+
+
+}
+
+.somth {
+    background-color: #f9f9fa;
+    padding: 30px 0;
+}
