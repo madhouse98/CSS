@@ -59,7 +59,7 @@
     
     position: absolute;
     right: 15%;
-    bottom: 302px;
+    bottom: 31.3%;
     left: 15%;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
@@ -87,7 +87,7 @@
 .carousel-indicators {
     position: absolute;
     right: 0;
-    bottom: 214px;
+    bottom: 22.8%;
     left: 0;
     z-index: 2;
     display: flex;
@@ -112,18 +112,36 @@
     cursor: pointer;
     background-color: transparent;
     background-clip: padding-box;
-    border: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
+    border: 2px solid white;
+    /* border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; */
     opacity: 1;
     transition: opacity .6s ease;
     border-radius: 50%;
+    
+}
+
+.carousel-indicators .active {
+    background-color: white !important;
+    opacity: 1 !important;
+    
+    
+}
+
+.carousel-control-prev {
+    left: 3.6%;
+    bottom: 1%;
+}
+.carousel-control-next {
+    right: 3.6%;
+    bottom: 1%;
+    
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
     display: inline-block;
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100% 100%;
@@ -200,3 +218,40 @@
     margin-top: 93px;
 }
 
+.lorembgcolorgray {
+    background-color: #f9f9fa;
+    margin-top: 111px;
+}
+
+.headingthird {
+    
+    color: #576671;
+    font-size: 60px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    
+    
+}
+
+.parathird{
+    font-size: 18px;
+    color: #87949e;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 51px 3px 0px 3px;
+    line-height: 36px;
+    }
+
+    .textsss{
+        padding-top: 150px;
+    }
+
+    .buttonup{
+        padding: 52px 0px;
+    }
+
+    .btnnomargin{
+        margin: 0;
+        
+    }
+  
